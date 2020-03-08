@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # crwn-shop7475
 It's a demo project build with react, redux, firebase and stripe 
 
@@ -7,8 +7,8 @@ It's a demo project build with react, redux, firebase and stripe
 - After any changes always add those changes `git add -A`
 - commit the change 
 - push the changes to our production `git push heroku master`
-=======
-We've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.
+
+___
 
 # How to fork and clone
 
@@ -123,5 +123,3 @@ After heroku finishes building our project, we can simply run:
 heroku open
 ```
 
-This will open up our browser and take us to our newly deployed Heroku project!
->>>>>>> handle data to firebase and add spinner with container pattern
